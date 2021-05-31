@@ -6,8 +6,5 @@ setup(
     url = '',
     description = '',
     packages = find_packages(),
-    install_requires = [
-        # Github Private Repository
-        'hopperslib @ git+ssh://git@github.com/RobertoFigueroa/hoppers-minimax-lib.git'
-    ]
+    install_requires = ['numpy']
 )
